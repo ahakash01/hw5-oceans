@@ -1,0 +1,207 @@
+/**common start**/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-weight: ;
+	color: ;
+
+}
+/**common end**/
+/**header start**/
+header{
+	padding: 10px 0;
+	width: 100%;
+	background-color: #121B2A;
+	border-bottom: 2px solid #0A0F18;
+
+
+}
+.wrapper{
+	margin: 0 auto;
+	width: 80%;
+	/**border: 1px solid red;**/
+	overflow: hidden;
+
+}
+/**logo start**/
+.logo{
+	float: left;
+    width: 13%;
+    /**border: 1px solid yellow;**/
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	width: 70%;
+	float: right;
+	/**border: 1px solid blue;**/
+
+}
+.menu ul{  
+	float: right;
+
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+	
+
+}
+.menu ul li a{
+	padding: 5px 16px;
+	color: white;
+	text-decoration: none;
+	transition-duration: .5s;
+	display: inline-block;
+
+}
+.menu ul li a:hover{
+	color: #0079BF;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;	
+
+}
+/**banner start**/
+.banner{
+	background-image: url(../images/tech.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	/**min-height: 300px;**/
+}
+
+.banner-content{
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 45%;
+
+}
+.banner-content p:first-child{
+	    color: white;
+     	font-size: 28px;
+     	margin: 0;
+
+}
+.banner-content h1{
+	font-family: sans-serif;
+	color: #0075B9;
+	font-size: 30px;
+	margin: 0;
+}
+.banner-content p:nth-last-child(2) {	
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.banner-content button{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #5A5A5A;
+	font-size: 18px;
+	margin-top: 20px;
+	background-color: white;
+	text-transform: uppercase;
+
+}
+.banner-content button span{
+	background-color: blue;
+	padding: 5px 10px;
+	border-radius: 50%;
+	color: white;
+	margin-left: 10px;
+
+}
+
+/**banner end**/
+/**service start**/
+ .service{
+
+ 	background-color: #121B2C;
+ 	padding: 50px 0;
+ 	border-top: 2px solid #0A0F18;
+
+
+ }
+ .single{
+ 	margin-left: 5px;
+ 	padding: 10px 20px;
+ 	float: left;
+ 	width: 29%;	    
+ }
+ .single:last-child{
+ 	border-right: 0;
+ }
+ .title{
+ 	/**border: 1px solid pink;**/
+ 	overflow: hidden;
+ 	margin-bottom: 5px;
+
+ }
+ .icon{
+ 	margin-top: 5px;
+ 	float: left;
+ 	width: 25%;
+ 	/**border: 1px solid red;**/
+ }
+ .icon img{
+ 	width: 100%;
+ }
+ .icon-content{
+ 	width: 70%;
+ 	float: left;
+ 	margin-top: 7px;
+ 	line-height: .5;
+
+
+ }
+ .icon-content h1{
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    
+
+ }
+ .icon-content h2{
+
+    color: #0077BC;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+ }
+ .content p{
+ 	color: white;
+ 	font-family: sans-serif;
+ 	font-size: 15px;
+ 	line-height: 1.5;
+ }
+ .contact{
+ 	background-color: #040811;
+ }
+ .title h1{
+ 	color: white;
+ 	font-size: 23px;
+ 	font-family: sans-serif;
+
+
+ }
+ .title h1 span{
+ 	color: #0077BC;
+ 	font-family: sans-serif;
+
+ }
+ .contact-content address{
+ 	color: white;
+ 	font-family: sans-serif;
+ 	font-weight: normal;
+ 	font-style: normal;
+ }
+ 
